@@ -1,0 +1,53 @@
+@import '../../assert/common.scss';
+
+.titleCity {
+    width: 100%;
+    height: pxToRem(50px);
+    display: flex;
+ 
+    .county {
+       flex: 2;
+       font-size: pxToRem(14px);
+       text-align: center;
+       line-height: pxToRem(50px);
+       color: blue;
+    }
+ 
+    .data {
+       flex: 5;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+ 
+       span:first-child {
+          color: blue;
+       }
+ 
+       span {
+          font-size: pxToRem(14px);
+       }
+    }
+ 
+    .ico {
+       flex: 1;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       .icon {
+        height: 0;
+        width: 0;
+        border-width: pxToRem(5px);
+        border-style: solid;
+        border-color: #737373 transparent transparent transparent;
+        border-bottom-width: 0;
+    }
+    .icos {
+        height: 0;
+        width: 0;
+        border-width: pxToRem(5px);
+        border-style: solid;
+        border-color: transparent transparent #737373 transparent;
+        border-top-width: 0;
+    }
+    }
+ }

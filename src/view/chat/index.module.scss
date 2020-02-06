@@ -1,0 +1,37 @@
+@import '../../assert/common.scss';
+
+.wrap {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    height: pxToRem(35px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 pxToRem(20px);
+    border-bottom: pxToRem(1px) solid #eee;
+}
+
+.city {
+    font-size: pxToRem(16px);
+    color: #689fff;
+}
+
+.ico {
+    height: 0;
+    width: 0;
+    border-width: pxToRem(5px);
+    border-style: solid;
+    border-color: #737373 transparent transparent transparent;
+    border-bottom-width: 0;
+}
+.icos {
+    height: 0;
+    width: 0;
+    border-width: pxToRem(5px);
+    border-style: solid;
+    border-color: transparent transparent #737373 transparent;
+    border-top-width: 0;
+}
