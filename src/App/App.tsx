@@ -15,15 +15,22 @@ import BizChart  from  '../view/bizChart/index'
 
 const App = () => {
   let [areaList, setArea] = useState<AreaType[]>([])
-  let [chingList,setCina] = useState<TotalType>([])
+    // 每日数据
+    let [dayList, setDayList] = useState([]);
+    // 每日新增数据
+    let [dayAddList, setDayAddList] = useState([]);
   useEffect(() => {
     getDisease().then((res:any)=>{
       console.log('res', res)
       if(res.ret === 0){
          let data =JSON.parse(res.data);
+         let {chinaTotal, chinaAdd, lastUpdateTime, areaTree, chinaDayList, chinaDayAddList} = data;
+
          console.log(data);
-         setArea(data.areaTree) 
-         setCina(data.chinaDayList)        
+         setArea(areaTree); 
+         setDayList(chinaDayList);
+         setDayAddList(chinaDayAddList);         
+
       }
     })
   }, [])
@@ -41,7 +48,7 @@ const App = () => {
          </div>
          <HotPals  areaList ={areaList.length?areaList[0].children as AreaType[]:[]} ></HotPals>
 
-         <BizChart chingList={chingList}  ></BizChart>
+         <BizChart  chinaDayAddList={dayAddList} chinaDayList={dayList}  ></BizChart>
 
          <ChatCode></ChatCode>
     </>
