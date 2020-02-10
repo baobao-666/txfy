@@ -1,0 +1,174 @@
+@function pxToRem($px) {
+    @return $px / 37.5px * 1rem;
+}
+.header {
+    width: 100%;
+    height: 170px;
+    position: relative;
+
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+.jump {
+    width: 80px;
+    height: 30px;
+    background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_more_icon.png);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.jump_zhuizong {
+    width: 80px;
+    height: 30px;
+    background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_zhuizong_more.png);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 90px;
+    top: 25px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    line-height: 26px;
+    height: 26px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    left: 30px;
+    right: 40px;
+    bottom: 10px;
+}
+
+.timeNum {
+    padding: 5px 10px 20px 20px;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin:20px 0px;
+}
+
+.totalNum {
+    width: 93%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+    margin:20px 0px;
+}
+
+.first {
+    background: #fdf1f1;
+    width: 25%;
+
+}
+
+p {
+    margin: 0;
+}
+
+.first .p {
+    color: red;
+    font-size: pxToRem(12px);
+}
+
+.add {
+    // padding-top: 12px;
+    color: #7c7c7c;
+    font-size: pxToRem(12px);
+    line-height: 24px;
+    font-weight: 500;
+
+    b {
+        color: red;
+    }
+}
+
+.first .span {
+    font-size: 12px;
+}
+
+.secound {
+    background-color: #fff7ed;
+    width: 25%;
+}
+
+.secound .add b {
+    color: #ff961e;
+}
+
+.secound .p {
+    color: #ff961e;
+    font-size: pxToRem(12px);
+
+}
+
+.secound .span {
+    font-size: 12px;
+}
+
+.third {
+    background-color: #f1f8f4;
+    width: 25%;
+}
+
+.third .add b {
+    color: #178b50;
+}
+
+.third .p {
+    color: #178b50;
+    font-size: pxToRem(12px);
+
+}
+
+.third .span {
+    font-size: 12px;
+}
+
+.fouth {
+    background-color: #f8f8f8;
+    width: 25%;
+}
+
+.fouth .add b {
+    color: #66666c;
+}
+
+.fouth .p {
+    color: #66666c;
+    font-size: pxToRem(12px);
+
+}
+
+.fouth .span {
+    font-size: 12px;
+}
+.wrapper {
+    width: 100%;
+   padding: 8px 23px;
+    
+    .box {
+        width: 90%;
+        height: 1rem;
+        display: flex;
+         align-items: center;
+         justify-content: space-around;
+        background: #EEF4FF;
+        p {
+            font-size: .3rem;
+            img {
+                width: .5rem;
+                height: .5rem;
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
     Chart,
     Geom,
@@ -6,6 +7,8 @@ import {
     Tooltip,
     Legend,
   } from "bizcharts";
+
+  import style from './index.module.scss'
 
 interface ProType {
     chinaDayAddList: Array<{
@@ -68,7 +71,7 @@ const Hospital = (props: ProType)=>{
     return <>
         {/* 疫情新增趋势（人） */}
         <section>
-            <h3>疫情新增趋势（人）</h3>
+            <h3 className ={style.h3} >疫情新增趋势（人）</h3>
             <Chart height={400} data={dayAddList} scale={scale} forceFit>
                 <Legend />
                 <Axis name="date"
@@ -101,7 +104,7 @@ const Hospital = (props: ProType)=>{
         </section>
         {/* 累计确诊疑似趋势（人） */}
         <section>
-        <h3> 累计确诊疑似趋势（人）</h3>
+        <h3  className ={style.h3} > 累计确诊疑似趋势（人）</h3>
             <Chart height={400} data={dayList} scale={scale} forceFit>
                 <Legend />
                 <Axis name="date"
@@ -134,7 +137,7 @@ const Hospital = (props: ProType)=>{
         </section>
         {/* 累计治愈死亡趋势（人） */}
         <section>
-        <h3>疫情新增趋势</h3>
+        <h3  className ={style.h3} >疫情新增趋势</h3>
             <Chart height={400} data={dayDeadList} scale={scale} forceFit>
                 <Legend />
                 <Axis name="date"
@@ -165,7 +168,7 @@ const Hospital = (props: ProType)=>{
                 />
             </Chart>
         </section>
-        <p>数据来源：国家卫健委官网发布，每日更新一次</p>
+        <p  className ={style.p} >数据来源：国家卫健委官网发布，每日更新一次</p>
     </>
 }
 

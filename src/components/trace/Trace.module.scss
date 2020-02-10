@@ -1,0 +1,117 @@
+.news{
+    position: relative;
+    margin-top:1.2rem;
+    background: #f8f8f8;
+    box-sizing: border-box;
+    padding-bottom:0.6rem;
+}
+.titleWarp{
+    width:100%;
+    box-sizing: border-box;
+    background:#fff; 
+    padding-bottom:.4rem;
+}
+.sectionTitle{
+    font-weight: 500;
+    font-size:0.36rem;
+    height:1rem;
+    line-height: 1rem;
+    padding:0 0.7rem;
+    background:url(https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/smart.png) .4rem center no-repeat;
+    color:#005dff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotzhuizhong{
+    width:1.68rem;
+    height:0.48rem;
+    background:url(https://mat1.gtimg.com/news/signin/v6/zhuizong.png);
+    background-size: 100% 100%;
+    margin-right:1.94rem;
+}
+.timelineMore{
+    width:2.05rem;
+    height:0.48rem;
+    background:url(https://mat1.gtimg.com/news/signin/v6/zixunmore.png);
+    background-size:100% 100%;
+    position: absolute;
+    right:0.4rem;
+    top:50%;
+    transform: translate(0,-50%);
+    display: block;
+}
+.timeLine{
+    position: absolute;
+    height:calc(100%-2.6rem);
+    width:0.45rem;
+    top:2.6rem;
+    left:0;
+    border-right: 0.1rem bolid #dddddd;
+}
+.singleNew{
+    font-size:0.28rem;
+    line-height:0.45rem;
+    padding:.4rem .4rem 0 .3rem;
+    margin-left:0.48rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.timeIcon{
+    position: absolute;
+    left:-0.13rem;
+    top:0.46rem;
+    background:url(https://puui.qpic.cn/vupload/0/1580094612259_xhuwv0n93di.png/0);
+    width:0.2rem;
+    height:0.2rem;
+    background-size:100% 100%;
+}
+.times{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:#222;
+    margin-bottom:0.3rem;
+    font-size:0.28rem;
+    line-height:0.28rem;
+}
+.pass{
+    font-size:0.28rem;
+    line-height:0.28rem;
+    height:0.28rem;
+    position: relative;
+    font-weight: 500;
+    color:#737373;
+}
+.newest{
+    margin-left:0.12rem;
+    width:0.6rem;
+    height:0.28rem;
+    background:url(https://puui.qpic.cn/vupload/0/1580094612258_hlp94jy4c6v.png/0);
+    background-size:100% 100%;
+}
+.newsBox{
+    background:#fff;
+    border-radius: .12px;
+}
+.newsBox .title{
+    color:#222222;
+    font-weight: 500;
+    font-size: 0.32rem;
+    padding:0.4rem 0.4rem 0 .4rem;
+    line-height:0.5rem;
+}
+.newsBox .desc{
+    padding:0.3rem .4rem;
+    line-height:.4rem;
+    color:#737373;
+    font-weight: normal;
+}
+.newsBox .source{
+    color:#222222;
+    line-height:0.28rem;
+    padding:0 .4rem .4rem .4rem;
+    font-weight: normal;
+}

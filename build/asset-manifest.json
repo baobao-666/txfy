@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/1704B/luguobao/txxg/static/css/main.a9a82cd5.chunk.css",
+    "main.js": "/1704B/luguobao/txxg/static/js/main.637d539f.chunk.js",
+    "main.js.map": "/1704B/luguobao/txxg/static/js/main.637d539f.chunk.js.map",
+    "runtime-main.js": "/1704B/luguobao/txxg/static/js/runtime-main.84db2372.js",
+    "runtime-main.js.map": "/1704B/luguobao/txxg/static/js/runtime-main.84db2372.js.map",
+    "static/js/2.8380af97.chunk.js": "/1704B/luguobao/txxg/static/js/2.8380af97.chunk.js",
+    "static/js/2.8380af97.chunk.js.map": "/1704B/luguobao/txxg/static/js/2.8380af97.chunk.js.map",
+    "index.html": "/1704B/luguobao/txxg/index.html",
+    "precache-manifest.c750f3184b0e97b18e3fb92c2fda7395.js": "/1704B/luguobao/txxg/precache-manifest.c750f3184b0e97b18e3fb92c2fda7395.js",
+    "service-worker.js": "/1704B/luguobao/txxg/service-worker.js",
+    "static/css/main.a9a82cd5.chunk.css.map": "/1704B/luguobao/txxg/static/css/main.a9a82cd5.chunk.css.map",
+    "static/js/2.8380af97.chunk.js.LICENSE.txt": "/1704B/luguobao/txxg/static/js/2.8380af97.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84db2372.js",
+    "static/js/2.8380af97.chunk.js",
+    "static/css/main.a9a82cd5.chunk.css",
+    "static/js/main.637d539f.chunk.js"
+  ]
+}

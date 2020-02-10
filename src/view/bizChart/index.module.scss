@@ -1,0 +1,15 @@
+@import '../../assert/common.scss';
+
+.h3{
+    font-size: pxToRem(12px);
+    width: 100%;
+    line-height: pxToRem(30px);
+    text-align: center;
+}
+
+.p{
+    font-size: pxToRem(14px);
+    width: 100%;
+    line-height: pxToRem(30px);
+    text-align: center;
+}
